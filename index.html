@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/siqiji_slide.js"></script>
+    <script src="js/zh.js" type="text/javascript" charset="utf-8"></script>
+    <!--[if IE 6]>
+    <script src="js/png.js" type="text/javascript"></script>
+    <script type="text/javascript">DD_belatedPNG.fix("*");</script>
+    <![endif]-->
+    <title>彩投网</title>
+    <meta name="keywords" content="彩投网"/>
+    <meta name="description" content="彩投网"/>
+</head>
+<body>
+
+<!--顶部区域。-->
+<div class="pwrap">
+    <div class="whead1z">
+        <a href="#">品牌信誉&nbsp;<img src="./images/jia.png"></a>
+        <a href="#">账户管理&nbsp;<img src="./images/jia.png"></a>
+        <a href="#">常见问题&nbsp;<img src="./images/jia.png"></a>
+        <a href="#">Ctrl+D收藏本站&nbsp;<img src="./images/jia.png"></a>
+    </div>
+    <div class="whead1y">
+        <form action="http://vip.ctcp8.com/login/login_ok" method="post" id="LoginForm" name="LoginForm"
+              onsubmit="return loginCheck(this);">
+            <div class="whead3y">
+                <label for="loginName" class="labelNP">账号</label>
+                <input type="text" placeholder="" class="searchput" name="loginName" id="loginName">
+                <label for="loginName" class="labelNP">密码</label>
+                <input type="password" disable-placeholder="" placeholder="" maxlength="21" name="loginPwd"
+                       class="searchput">
+                <input type="submit" id="loginButton" class="searchbut" value="登&nbsp;录" name="">
+                <!--<a href="#" onclick="getPwd();">忘记密码？</a>-->
+                <a href="" class="searchbut_reg">注&nbsp;册</a>
+                <a href="" class="searchbut_daili">代理登录</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+<!--导航。-->
+<div class="nav">
+    <ul class="nav_b">
+        <li><a class="nav_yuan" href="/index.php" class="current">首页</a></li>
+        <li><a class="nav_yuan" href="/gdcp/live.php">彩票游戏</a></li>
+        <li><a class="nav_yuan" href="/gdcp/live.php">六合彩</a></li>
+        <li><a class="logo_b" href="/index.php"><img  style="height: 80px" src="./images/logo.png"></a></li>
+        <li><a class="nav_yuan" href="/zhenren.php">真人视讯</a></li>
+
+        <li><a class="nav_yuan" href="/agentreg.php">代理加盟</a></li>
+        <li><a class="nav_yuan" href="/youhui.php">最新优惠</a></li>
+
+        <!--<span class="spanhot spanhotwz1"></span> <span class="spanhot spanhotwz2"></span>-->
+    </ul>
+</div>
+<!--轮播。-->
+<div class="fullSlide">
+    <div class="bd">
+        <ul>
+
+            <li style="background:url(images/banner1.jpg) #194982 center 0 no-repeat;"><a href="register.php"></a></li>
+            <!--<li style="background:url(images/4.jpg) #000000 center 0 no-repeat;"><a href="http://www.dmxy09.com/#ct" target="_black"></a></li>-->
+            <li style="background:url(images/banner2.jpg) #15181e center 0 no-repeat;"><a href="register.php"></a></li>
+            <li style="background:url(images/banner1.jpg) #0b0b0b center 0 no-repeat;"><a href="register.php"></a></li>
+        </ul>
+    </div>
+    <div class="hd">
+        <ul>
+        </ul>
+    </div>
+
+</div>
+<script type="text/javascript">
+    jQuery(".fullSlide").slide({
+        titCell: ".hd ul",
+        mainCell: ".bd ul",
+        effect: "fold",
+        autoPlay: true,
+        autoPage: true,
+        interTime: 4000,
+        trigger: "click"
+    });
+</script>
+<div class="inw1">
+    <div class="inmainc">
+        <ul>
+            <li class="inmainc_b"><a href="#"><img  style="height: 112px" src="./images/caitou_1.png"></a></li>
+            <li class="inmainc_b"><a href="#"><img  style="height: 112px" src="./images/caitou_2.png"></a></li>
+            <li class="inmainc_b"><a href="#"><img  style="height: 112px" src="./images/caitou_3.png"></a></li>
+            <li class="inmainc_b"><a href="#"><img  style="height: 112px" src="./images/caitou_4.png"></a></li>
+            <li class="inmainc_b"><a href="#"><img  style="height: 112px" src="./images/caitou_5.png"></a></li>
+            <li class="inmainc_b"><a href="#"><img  style="height: 112px" src="./images/caitou_6.png"></a></li>
+            <div style="clear: both"></div>
+        </ul>
+
+
+    </div>
+    <div class="inmainb">
+        <ul>
+            <li class="current">
+                <a href="#">手机端下载</a>
+            </li>
+            <li>
+                <a href="#">真人视讯</a>
+            </li>
+            <li class="xiaoming">
+                <a href="#">优惠多多</a>
+            </li>
+            <li>
+                <a href="#">优惠领取</a>
+            </li>
+            <li class="last">
+                <a style="border: none" href="#">免费试玩</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="gonggao">
+    </div>
+    <div class="content">
+        <div class="content_t">
+            <div class="shipin">
+                <a href="#"><img  style="width: 543px" src="./images/shipin.jpg"></a>
+            </div>
+            <div class="daililunbo">
+                <a href="#"><img  style="width: 543px" src="./images/daililunbo.jpg"></a>
+            </div>
+            <div style="clear: both"></div>
+
+        </div>
+        <div class="content_b">
+            <div class="content_ml">
+                <div class="content_bnt">
+                    <a href="#"><img  style="width: 543px" src="./images/banner9.jpg"></a>
+                </div>
+                <div class="content_bnt">
+                    <a href="#"><img  style="width: 543px;margin-top: 8px" src="./images/banner10.jpg"></a>
+                </div>
+            </div>
+            <div class="content_mr">
+
+
+
+            </div>
+            <div style="clear: both"></div>
+
+        </div>
+
+        <!--<div style="clear: both"></div>-->
+    </div>
+
+
+</div>
+
+<div class="footer">
+    <div class="footer1">
+        <div style="float: left">
+            <img  style="width: 506px" src="./images/footer1.png">
+            <div style="position: relative">
+                <span style="position: absolute;left: 190px;top: -208px;font-family:mySecendFont;font-size: 68px;color: #b60000">15</span>
+            </div>
+            <div style="position: relative">
+                <span style="position: absolute;left: 195px;top: -121px;font-family:mySecendFont;font-size: 68px;color: #b60000">7</span>
+            </div>
+
+        </div>
+        <div style="width: 506px;height: 209px;float: right">
+            <img  style="width: 506px;height: 209px" src="./images/footer2.png">
+            <div>
+                <a style="width: 88px;height: 37px;background:url(./images/liulanq.png);" href="#"></a>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="footer4">
+        <span>Copyright 2016 http://ctcp8.com All rights reserved 彩投网 版权所有
+提醒：购买彩票有风险，在线投注需谨慎，不向未满18周岁的青少年出售彩票！</span>
+    </div>
+</div>
+<div id="leftsead">
+    <ul>
+        <li><a href=""><img src="images/foot03/ll01.png" width="131" height="49" class="hides"/><img src="images/foot03/l01.png" width="47" height="49" class="shows" /></a></li>
+        <li><a href=""><img src="images/foot03/ll03.png" width="131" height="49"  class="hides"/><img src="images/foot03/l03.png" width="47" height="49" class="shows" /></a></li>
+        <li><a class="youhui"><img src="images/foot03/l02.png" width="47" height="49" class="shows" /><img src="images/foot03/youhui.png" width="145" height="343" class="hides" usemap="#taklhtml"/><map name="taklhtml"><area shape="rect" coords="26,273,115,300 " href="http://sc.chinaz.com/jiaoben/" /></map></a></li>
+        <li><a href="tencent://message/?uin=800027897&Site=test315.nesky.cn&Menu=yes"><img src="images/foot03/ll04.png" width="131" height="49" class="hides"/><img src="images/foot03/l04.png" width="47" height="49" class="shows" /></a></li>
+        <li><a href="http://sc.chinaz.com/jiaoben/"><img src="images/foot03/ll05.png" width="131" height="49" class="hides"/><img src="images/foot03/l05.png" width="47" height="49" class="shows" /></a></li>
+        <li><a id="top_btn"><img src="images/foot03/ll06.png" width="131" height="49" class="hides"/><img src="images/foot03/l06.png" width="47" height="49" class="shows" /></a></li>
+    </ul>
+</div>
+
+</body>
+</html>
